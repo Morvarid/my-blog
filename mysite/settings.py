@@ -62,9 +62,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mysite',
         'USER': 'mariah',
-        'PASSWORD': '',
-        'HOST':'localhost',
-        'PORT':'3360',
+        #'USER': 'root',
+        #'PASSWORD': 'MY_PASSWORD',
         'OPTIONS': {
             'read_default_file': '/usr/local/Cellar/mysql/5.6.23/my.cnf',
         },
